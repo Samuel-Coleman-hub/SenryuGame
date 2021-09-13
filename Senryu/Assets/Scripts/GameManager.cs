@@ -111,6 +111,7 @@ public class GameManager : MonoBehaviour
     {
         SwitchCamera(num);
         SwitchMusic(num);
+        GetPoems();
 
     }
 
@@ -118,24 +119,67 @@ public class GameManager : MonoBehaviour
     {
         DatabaseHandler.GetPoems(poems =>
         {
-            GetRandomPoems(poems, 1);
+            GetRandomPoems(poems);
         });
     }
 
-    private void GetRandomPoems(Dictionary<string, Poem> poems, int env)
+    private void GetRandomPoems(Dictionary<string, Poem> poems)
+    {
+        Debug.Log("in getRandomPoems");
+        List<int> finalPoemList = CuratePoemList(poems);
+        Debug.Log("This is count "+ finalPoemList.Count);
+        foreach(int x in finalPoemList)
+        {
+            Debug.Log(x);
+        }
+        PopulateTextFields(poems, finalPoemList);
+    }
+
+    private List<int> CuratePoemList(Dictionary<string, Poem> poems)
+    {
+        List<int> randomList = CreateRandomList(poems);
+        List<int> finalPoemList = new List<int>();
+        int i = 0;
+        while (finalPoemList.Count < poemsOnScreen)
+        {
+            Debug.Log("Loop " + i);
+            if (!randomList.Any() || i >= poems.Count || i >= randomList.Count)
+            {
+                Debug.Log("Worked to return");
+                return finalPoemList;
+            }
+            if (poems.ElementAt(randomList.ElementAt(i)).Value.poemEnviroment == envActive)
+            {
+                Debug.Log("Poem works");
+                finalPoemList.Add(randomList.ElementAt(i));
+                randomList.RemoveAt(i);
+            }
+            
+
+            i++;
+        }
+        Debug.Log("Returned by default");
+        return finalPoemList;
+        
+    }
+
+    private List<int> CreateRandomList(Dictionary<string, Poem> poems)
     {
         List<int> randNums = new List<int>();
-        int number;
-        for(int x = 0; x < poemsOnScreen; x++)
+        for (int i = 0; i < 200; i++)
         {
-            do
+            int numToAdd = Random.Range(0, poems.Count);
+            while (randNums.Contains(numToAdd))
             {
-                number = UnityEngine.Random.Range(0, poems.Count);
-            } while (randNums.Contains(number) || !poems.ElementAt(number).Value.poemEnviroment.Equals(env.ToString()));
-            randNums.Add(number);
-            Debug.Log("env = " + env + "poemenv = " + poems.ElementAt(number).Value.poemEnviroment);
+                numToAdd = Random.Range(0, poems.Count);
+            }
+            randNums.Add(numToAdd);
+            if (randNums.Count >= poems.Count)
+            {
+                return randNums;
+            }
         }
-        PopulateTextFields(poems, randNums);
+        return randNums;
     }
 
     private void PopulateTextFields(Dictionary<string, Poem> poems, List<int> randNums)
