@@ -15,11 +15,11 @@ C:/Users/colem/OneDrive/Documents/CSC2034/SenryuGame/Senryu
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58620
+57410
 Successfully changed project path to: C:/Users/colem/OneDrive/Documents/CSC2034/SenryuGame/Senryu
 C:/Users/colem/OneDrive/Documents/CSC2034/SenryuGame/Senryu
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 129.99 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 89.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -36,93 +36,2611 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004338 seconds.
+Registered in 0.004370 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 104.01 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 93.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.123 seconds
+- Completed reload, in  8.698 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003835 seconds.
+Registered in 0.003151 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 254.62 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 399.05 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.808 seconds
+- Completed reload, in  3.678 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 2.45 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.35 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2515 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.1 MB.
-System memory in use after: 121.3 MB.
+System memory in use before: 121.3 MB.
+System memory in use after: 121.4 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2957.
-Total: 6.039900 ms (FindLiveObjects: 1.290700 ms CreateObjectMapping: 0.369300 ms MarkObjects: 4.074100 ms  DeleteObjects: 0.179100 ms)
+Total: 4.969800 ms (FindLiveObjects: 0.784000 ms CreateObjectMapping: 0.352300 ms MarkObjects: 3.643700 ms  DeleteObjects: 0.186000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Models/lowPolyMan.blend
-  artifactKey: Guid(e075fbab34bf2ab488a2560b43496855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/lowPolyMan.blend using Guid(e075fbab34bf2ab488a2560b43496855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ae97a0c5f7daa773c5a49bcd1135b2') in 4.689210 seconds
-  Import took 4.697468 seconds .
+  path: Assets/Scenes/New Lighting Settings.lighting
+  artifactKey: Guid(6e049b14a6c1d6445a6277468ffe0725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Lighting Settings.lighting using Guid(6e049b14a6c1d6445a6277468ffe0725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec4dbe76b3ddd7102f2a9bcb4a5ab92') in 0.170912 seconds
+  Import took 0.185750 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 130.787943 seconds.
-  path: Assets/Models/trainssolo.blend
-  artifactKey: Guid(2c8d76ce6bf379c44bb5812b6ac42812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/trainssolo.blend using Guid(2c8d76ce6bf379c44bb5812b6ac42812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ba42e0fe9faeb5437fe30335bf5df7') in 0.110440 seconds
-  Import took 0.120923 seconds .
+  Time since last request: 0.000821 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46e480cdb09df3041da7ffdae8125b4') in 0.167126 seconds
+  Import took 0.174504 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.069503 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.399 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.3 MB.
+System memory in use after: 114.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2959.
+Total: 58.182800 ms (FindLiveObjects: 1.915500 ms CreateObjectMapping: 1.072100 ms MarkObjects: 55.061300 ms  DeleteObjects: 0.130700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002312 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.221 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.3 MB.
+System memory in use after: 114.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2961.
+Total: 7.112500 ms (FindLiveObjects: 0.484400 ms CreateObjectMapping: 0.271900 ms MarkObjects: 3.629400 ms  DeleteObjects: 2.723600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011105 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.233 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.3 MB.
+System memory in use after: 114.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2963.
+Total: 5.170800 ms (FindLiveObjects: 0.594500 ms CreateObjectMapping: 0.397500 ms MarkObjects: 4.046200 ms  DeleteObjects: 0.129700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.931193 seconds.
-  path: Assets/Models/justHoriRoom.blend
-  artifactKey: Guid(90710b2fb08183345be397468e5f52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/justHoriRoom.blend using Guid(90710b2fb08183345be397468e5f52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3aa1ffb6a4534249b2a0f1d8b89750') in 0.082745 seconds
-  Import took 0.093359 seconds .
+  Time since last request: 3665.831501 seconds.
+  path: Assets/Models/trainShelter.obj
+  artifactKey: Guid(59d027606081baf4ab3bf55e41b1b5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainShelter.obj using Guid(59d027606081baf4ab3bf55e41b1b5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f896c8c3fd09e826bd7baa6e4d35ad6') in 5.614788 seconds
+  Import took 5.759075 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019134 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.722 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.0 MB.
+System memory in use after: 120.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3046.
+Total: 5.189600 ms (FindLiveObjects: 0.775000 ms CreateObjectMapping: 0.327700 ms MarkObjects: 3.913800 ms  DeleteObjects: 0.149200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002145 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.164 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.9 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3048.
+Total: 5.972000 ms (FindLiveObjects: 0.656300 ms CreateObjectMapping: 0.325100 ms MarkObjects: 4.703700 ms  DeleteObjects: 0.283300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003170 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.282 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.0 MB.
+System memory in use after: 120.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3050.
+Total: 5.307600 ms (FindLiveObjects: 0.602300 ms CreateObjectMapping: 0.237300 ms MarkObjects: 4.254000 ms  DeleteObjects: 0.211200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.799399 seconds.
-  path: Assets/Models/JustBookCase.blend1
-  artifactKey: Guid(c17dba39c8795f3439453e0beb516b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/JustBookCase.blend1 using Guid(c17dba39c8795f3439453e0beb516b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e73095471900d508fd804c4f4898b16') in 0.079148 seconds
-  Import took 0.098657 seconds .
+  Time since last request: 1734.583240 seconds.
+  path: Assets/Models/trainssolos.blend1
+  artifactKey: Guid(98029b67837122b42b3710934cdd5b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainssolos.blend1 using Guid(98029b67837122b42b3710934cdd5b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19537efb7657ac0c5fa0ee9ee2f88074') in 0.355674 seconds
+  Import took 0.383695 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.572075 seconds.
-  path: Assets/Models/Bookcase.blend
-  artifactKey: Guid(b8f52c77b761853429dba19e2c607306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Bookcase.blend using Guid(b8f52c77b761853429dba19e2c607306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da27c40e85e1258ea7577b8797a6e8d6') in 0.063445 seconds
-  Import took 0.085300 seconds .
+  Time since last request: 4.672223 seconds.
+  path: Assets/Models/stationBench.blend
+  artifactKey: Guid(8be5ee69e974f314f92c52535fd85f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/stationBench.blend using Guid(8be5ee69e974f314f92c52535fd85f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252b0fe4ab673180c2c3c75e78f70bd6') in 0.299117 seconds
+  Import took 0.315302 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.158136 seconds.
-  path: Assets/Models/RoomStructure.blend1
-  artifactKey: Guid(bc79dd718065be84ead7e2ebb70e4286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/RoomStructure.blend1 using Guid(bc79dd718065be84ead7e2ebb70e4286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77afcf2c8553ebeef619baa42dd7ceca') in 0.050763 seconds
-  Import took 0.059186 seconds .
+  Time since last request: 17.225037 seconds.
+  path: Assets/Models/stationBench.obj
+  artifactKey: Guid(6d6a26f1a1ebb3541a7375ce3d1e6185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/stationBench.obj using Guid(6d6a26f1a1ebb3541a7375ce3d1e6185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a9c3028730512fa6670f18eb9040d9') in 1.517649 seconds
+  Import took 1.680339 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.018731 seconds.
+  path: Assets/Models/stationBench.obj
+  artifactKey: Guid(6d6a26f1a1ebb3541a7375ce3d1e6185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/stationBench.obj using Guid(6d6a26f1a1ebb3541a7375ce3d1e6185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a9c3028730512fa6670f18eb9040d9') in 0.338903 seconds
+  Import took 0.415113 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012119 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.2 MB.
+System memory in use after: 120.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3088.
+Total: 5.258900 ms (FindLiveObjects: 0.587700 ms CreateObjectMapping: 0.279600 ms MarkObjects: 4.253200 ms  DeleteObjects: 0.135600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 681.255264 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5368d3eb333d8f0abeb30aea996f3d06') in 1.134750 seconds
+  Import took 1.204172 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003400 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.986 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 9.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.3 MB.
+System memory in use after: 120.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3126.
+Total: 28.392500 ms (FindLiveObjects: 7.389700 ms CreateObjectMapping: 1.716300 ms MarkObjects: 19.096700 ms  DeleteObjects: 0.183900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015328 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.463 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.3 MB.
+System memory in use after: 120.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3128.
+Total: 5.292600 ms (FindLiveObjects: 0.990800 ms CreateObjectMapping: 0.380700 ms MarkObjects: 3.766600 ms  DeleteObjects: 0.150600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1158.723530 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.681181 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.699775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019377 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.104199 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.144477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012252 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.132678 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.155549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013999 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.165246 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.175291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011179 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.104958 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.114944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012252 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.117771 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.126942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012028 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.084485 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.093219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020129 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.111326 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.123869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011245 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.214753 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.227949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012335 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.156909 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.176185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019044 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.130327 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.138644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012797 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.170957 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.185129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047752 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.259119 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.310144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034416 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.075213 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.084131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038753 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.070915 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.080730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053739 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.171550 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.199834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043952 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.155157 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.166206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039175 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.053637 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.078811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046660 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.529000 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.546447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043211 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.092602 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.130268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048421 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.065439 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.084429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051556 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.066140 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.095920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037277 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.084936 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.108842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042232 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.072166 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.098157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035107 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.064919 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.077566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045157 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.051848 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.069559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036892 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.061028 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.074402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042511 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.067130 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.095560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039334 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.058041 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.080227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047655 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.078450 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.088211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033624 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.061835 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.079925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055456 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.167100 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.229587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067400 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.064929 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.072508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043754 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.087172 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.108079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042535 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.102350 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.134388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061359 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.082331 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.105635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035717 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.081091 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.101108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049561 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.058580 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.095881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036184 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.120542 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.145208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036030 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.100113 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.112702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051435 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.068992 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.081659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056946 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.073110 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.098735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045420 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.227309 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.236480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043243 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.094853 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.106345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046400 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.054606 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.077250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041385 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.063363 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.089258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044237 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.105382 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.127018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041899 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.066553 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.088266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039647 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.119340 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.131449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039882 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.045146 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.064872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044567 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.063667 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.080149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042895 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.060459 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.081883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032741 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.078261 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.086510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030656 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.073916 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.080565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035844 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.055802 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.076658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037814 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.095989 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.118490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.144284 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.218105 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.235156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043652 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.076374 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.085870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038909 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.131071 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.170479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038655 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.061980 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.093191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045334 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.161682 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.169156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031391 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.073840 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.082695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053864 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.179186 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.191666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061796 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.099419 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.112470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062595 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.158247 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.172285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051364 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.375914 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.414396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046815 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.078161 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.088913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048091 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.056859 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.073353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047005 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.056946 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.078832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050621 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.063197 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.080865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050627 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.064544 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.073550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044270 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.058136 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.066990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045543 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.056998 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.072875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033408 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.056403 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.063637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038046 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.054204 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.067866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038620 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.061120 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.075360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034515 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.051045 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.069287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043706 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.052356 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.066309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036338 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.056544 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.069343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073831 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.153659 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.169865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055672 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.059310 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.077537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041689 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.066481 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.081210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042461 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.078400 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.092926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039932 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.124304 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.135981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054142 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.061935 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.077792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035209 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.102112 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.110590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039780 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.075536 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.081999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038653 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.064847 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.086483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041518 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.050487 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.067111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035891 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.078961 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.096656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051884 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.082749 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.101930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055840 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.085511 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.111539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062543 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.602396 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.637914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042292 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.067285 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.087829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048447 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.149607 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.174558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043463 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.157159 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.176324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038095 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.057279 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.075319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041670 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.066849 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.096061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035285 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.054672 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.072448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044746 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.102025 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.119337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043030 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.061511 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.073054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058469 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.175234 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.301030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034571 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.072020 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.080344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047793 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.068314 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.085548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064112 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.053750 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.066110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056827 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.074043 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.091166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034092 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.048094 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.056852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030853 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.054703 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.080558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038611 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.047670 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.056208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030007 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.053476 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.064383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027859 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.060708 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.070335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036465 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.054719 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.087023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045097 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.058753 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.075511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048639 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.065965 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.078619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040728 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.110000 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.120572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111664 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.067592 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.077113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043191 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.068748 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.079007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057344 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.055824 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.085982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046316 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.053289 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.077377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057300 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.067059 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.080431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079336 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.068747 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.078298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041195 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.060769 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.070339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030069 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.089593 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.110629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038441 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.084419 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.097297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052728 seconds.
+  path: Assets/Models/trainPlatform.obj
+  artifactKey: Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trainPlatform.obj using Guid(df2814a98933b4a4189ef0165995fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.070829 seconds
+  ERROR: Failed to write the asset file 'Assets/Models/trainPlatform.obj'
+  Import took 0.081117 seconds .
+
+========================================================================
+Received Import Request.
+  Import took 0.066313 seconds .
+
+ -> (artifact id: 'a040fcc267a5967afb1be65941bdf63b') in 0.125731 seconds
+  Import took 0.148894 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002534 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.361 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.1 MB.
+System memory in use after: 123.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3510.
+Total: 6.450200 ms (FindLiveObjects: 0.514400 ms CreateObjectMapping: 0.225000 ms MarkObjects: 5.591700 ms  DeleteObjects: 0.117100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004758 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.357 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.2 MB.
+System memory in use after: 123.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3512.
+Total: 9.865000 ms (FindLiveObjects: 1.654800 ms CreateObjectMapping: 0.454500 ms MarkObjects: 7.565100 ms  DeleteObjects: 0.187200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1879.939734 seconds.
+  path: Assets/Materials/ColourPaletteNEW.png
+  artifactKey: Guid(a282a7c4b5532ad4c9832180881b4b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ColourPaletteNEW.png using Guid(a282a7c4b5532ad4c9832180881b4b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680d99402497f90dcda9d27f2ac3324a') in 2.701441 seconds
+  Import took 2.953656 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003203 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.793 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.2 MB.
+System memory in use after: 123.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3515.
+Total: 11.592000 ms (FindLiveObjects: 0.627200 ms CreateObjectMapping: 0.268600 ms MarkObjects: 10.525700 ms  DeleteObjects: 0.167000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 423.166624 seconds.
+  path: Assets/Materials/TrainWindow.mat
+  artifactKey: Guid(9047db51f2ee4274296578f74db86ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TrainWindow.mat using Guid(9047db51f2ee4274296578f74db86ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd7c54c47eb0561def75527bc89da16') in 1.139033 seconds
+  Import took 1.147206 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033308 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.136 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.4 MB.
+System memory in use after: 123.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3553.
+Total: 9.718600 ms (FindLiveObjects: 3.995600 ms CreateObjectMapping: 0.332400 ms MarkObjects: 5.251500 ms  DeleteObjects: 0.135200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 197.890440 seconds.
+  path: Assets/Materials/TrainWindow.mat
+  artifactKey: Guid(9047db51f2ee4274296578f74db86ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TrainWindow.mat using Guid(9047db51f2ee4274296578f74db86ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faead03672ce19f6b3d77a75c806a6af') in 0.662597 seconds
+  Import took 0.674700 seconds .
+
