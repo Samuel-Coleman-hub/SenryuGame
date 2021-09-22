@@ -173,18 +173,6 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -5512284142514233037}
     m_Position: {x: 320, y: 130, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -4797804033986164956}
-    m_Position: {x: 530, y: -60, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -3606329904021035011}
-    m_Position: {x: 460, y: -180, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -1090710650291152828}
-    m_Position: {x: 660, y: -250, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 2089858476904059940}
-    m_Position: {x: 950, y: -210, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -333,8 +321,7 @@ AnimatorState:
   m_Name: FadeOutStartText
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 1087096668949864720}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
