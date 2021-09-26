@@ -13,6 +13,7 @@ public class TextLoader : MonoBehaviour
     [SerializeField] Animator poem3;
     [SerializeField] GameObject thirdText;
     [SerializeField] GameObject fourthText;
+    [SerializeField] TutorialSceneManager sceneManagement;
 
     [SerializeField] float waitFirstTextLeave = 5f;
     [SerializeField] float poem1ReadingTime = 5f;
@@ -65,9 +66,7 @@ public class TextLoader : MonoBehaviour
         fourthText.GetComponent<Animator>().SetTrigger("FadeInSecondPanel");
 
         yield return new WaitForSeconds(2f);
-        mainPanel.SetTrigger("ToNewColour");
-        yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        sceneManagement.PlayNextScene();
 
     }
 

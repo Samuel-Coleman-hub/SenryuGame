@@ -465,6 +465,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1654248754}
+        m_TargetAssemblyTypeName: TutorialSceneManager, Assembly-CSharp
+        m_MethodName: PlayNextScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &59386610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2730,6 +2742,7 @@ MonoBehaviour:
   poem3: {fileID: 1664521651}
   thirdText: {fileID: 1733115120}
   fourthText: {fileID: 625229257}
+  sceneManagement: {fileID: 1654248754}
   waitFirstTextLeave: 10
   poem1ReadingTime: 5
   poem2ReadingTime: 5
@@ -3602,6 +3615,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1654248753}
+  - component: {fileID: 1654248754}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -3623,6 +3637,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1654248754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654248752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abebc1ab78559d34ab039b89b8c152e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicAnim: {fileID: 2112014641}
+  panelAnim: {fileID: 601820654}
 --- !u!1 &1664521646
 GameObject:
   m_ObjectHideFlags: 0
@@ -5134,6 +5162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2112014640}
   - component: {fileID: 2112014639}
+  - component: {fileID: 2112014641}
   m_Layer: 0
   m_Name: Music
   m_TagString: Untagged
@@ -5251,6 +5280,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2112014641
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112014638}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 510362be7319f1441b23872d002bb1d5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2132298968
 GameObject:
   m_ObjectHideFlags: 0

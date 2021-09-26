@@ -34,27 +34,24 @@ public class GameManager : MonoBehaviour
         GetPoems();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void RightButton()
     {
-        if (Input.GetKeyUp(KeyCode.RightArrow))
+        if (envActive < envCount)
         {
-            if(envActive < envCount)
-            {
-                envActive++;
-                Debug.Log("enoActive is now" + envActive);
-                SwitchEnviroment(envActive);
-                
-            }
-        }
-        else if (Input.GetKeyUp(KeyCode.LeftArrow))
-        {
-            if (envActive > 1)
-            {
-                envActive--;
+            envActive++;
+            Debug.Log("enoActive is now" + envActive);
+            SwitchEnviroment(envActive);
 
-                SwitchEnviroment(envActive);
-            }
+        }
+    }
+
+    public void LeftButton()
+    {
+        if (envActive > 1)
+        {
+            envActive--;
+
+            SwitchEnviroment(envActive);
         }
     }
 
