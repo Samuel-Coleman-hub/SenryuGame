@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] GameObject floatingTexts;
 
+
+
     [SerializeField] int poemsOnScreen = 10;
 
     DatabaseHandler databaseHandler = new DatabaseHandler();

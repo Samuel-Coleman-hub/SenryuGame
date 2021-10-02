@@ -1381,7 +1381,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: An Object
+  m_text: Objects
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 02b202aa00c653e418c1133ced07270e, type: 2}
   m_sharedMaterial: {fileID: -2967161369759323407, guid: 02b202aa00c653e418c1133ced07270e, type: 2}
@@ -2743,7 +2743,7 @@ MonoBehaviour:
   thirdText: {fileID: 1733115120}
   fourthText: {fileID: 625229257}
   sceneManagement: {fileID: 1654248754}
-  waitFirstTextLeave: 10
+  waitFirstTextLeave: 7
   poem1ReadingTime: 5
   poem2ReadingTime: 5
   poem3ReadingTime: 5
@@ -3897,7 +3897,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: An Observation
+  m_text: Observations
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 02b202aa00c653e418c1133ced07270e, type: 2}
   m_sharedMaterial: {fileID: -2967161369759323407, guid: 02b202aa00c653e418c1133ced07270e, type: 2}
@@ -4504,10 +4504,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'In a second you''ll see some scenes, three different scenes,
+  m_text: 'In a second you''ll see three different scenes,
 
-    switch
-    between them with the arrow keys'
+    switch between them
+    with the on screen buttons'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 02b202aa00c653e418c1133ced07270e, type: 2}
   m_sharedMaterial: {fileID: -2967161369759323407, guid: 02b202aa00c653e418c1133ced07270e, type: 2}
@@ -4807,7 +4807,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Vibes
+  m_text: 'Music
 
 '
   m_isRightToLeft: 0
